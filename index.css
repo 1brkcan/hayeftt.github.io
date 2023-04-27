@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: black;  
+ 
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin-left: 35px;
+    color: white;
+    padding: 5px;
+    transition: color 1s, background-color 1s;
+
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+
+}
+
+
+.section1 i img{
+    width: 40px;
+    background-color: white;
+    position: relative;
+    left: 530px;
+    padding: 20px;
+    border-radius: 50%;
+    transition: 1s all;
+}
+
+.section1 i img:hover{
+    cursor: pointer;
+    transition: 1s all ;
+    transform: rotateX(180deg);
+
+}
+
+.black{
+     opacity: 0.9; 
+     position: relative;
+     left: 30px;
+     
+} 
+
+h1{
+    position: absolute;
+    top: 90px;
+    left: 200px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: 'Satisfy', cursive;
+}
+
+.card{
+    margin: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0);
+    border-radius: 5px;
+    float: left;
+    transition: box-shadow 0.5s;
+
+}
+
+.card:hover{
+    box-shadow: 0 7px 15px 0 rgb(0, 0, 0);
+}
+
+.cardbody{
+    padding:11px 15px ;
+}
+
+.cardtitle{ 
+    margin-bottom: 5px;
+
+}
+
+.cardimage{
+    height: 500px;
+    width: 100%; 
+    border-radius: 5px;
+    box-shadow: 0 44px 88px 0 rgb(0,0,0,0.2);
+    transition: box-shadow 0.5s;
+}
+
+.cardimage:hover{
+    opacity: 0.9;
+    box-shadow:0 7px 15px 0 rgb(0,0,0,0.2) ;
+}
+
+footer{
+    background-color: rgb(244, 244, 244);
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+
+footer a{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-style: solid;
+    padding: 5px;
+    transition: color 1s, background-color 1s;
+    text-decoration: none;
+}
+
+footer a:hover{
+    background-color:black ;
+    color: white;
+}
