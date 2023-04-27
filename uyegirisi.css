@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: #222020;
+}
+nav{
+    background-color: black;
+}
+nav ul{
+    text-align: center;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    margin-left: 35px;
+    color: white;
+    padding: 5px;
+    transition: color 1s, background-color 1s;
+
+}
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.kutu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(24, 20, 20, 0.987);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+  
+.kutu .bir {
+    position: relative;
+  }
+  
+.kutu .bir input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  
+  .kutu .bir label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .kutu .bir input:focus ~ label,
+  .kutu .bir input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #bdb8b8;
+    font-size: 12px;
+  }
+  
+  .kutu form a input {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    background: rgba(24, 20, 20, 0.987);
+    border: none;
+    letter-spacing: 4px
+  }
+  
+  .kutu a input:hover {
+    background: #fefefe;
+    color: #000000;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ffffff,
+                0 0 12.5px #ffffff,
+                0 0 25px #ffffff,
+                0 0 50px #ffffff;
+  }
