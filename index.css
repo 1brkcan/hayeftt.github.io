@@ -47,7 +47,7 @@ nav ul li a:hover{
 .section1 i img:hover{
     cursor: pointer;
     transition: 1s all ;
-    transform: rotateX(180deg);
+    transform: rotateX(360deg);
 
 }
 
